@@ -1,19 +1,16 @@
 <?php
-/**
- * @package Hindi to Lat
- * @version 1.0
- */
 /*
-Plugin Name: Hindi to Lat
-Text Domain: hindi-to-lat
-Plugin URI: https://wordpress.org/plugins/hindi-to-lat
-Description: Converts Hindi characters in post and term slugs to Latin characters. Useful for creating human-readable URLs. Based on the original plugin by Anton Skorobogatov and Cyr-To-Lat by SergeyBiryukov and Ukr-To-Lat Alexander Butyuhin.
-Author: Dilip Soni
-Author URI: https://dilipsoni.in
-Version: 1.0
-License: GPL2
-License URI: https://www.gnu.org/licenses/gpl-2.0.html
-*/
+ * Plugin Name: Hindi to Lat
+ * Plugin URI: https://vtldesign.com
+ * Description: Converts Hindi characters in post and term slugs to Latin characters. Useful for creating human-readable URLs. Based on the original plugin by Anton Skorobogatov and Cyr-To-Lat by SergeyBiryukov and Ukr-To-Lat Alexander Butyuhin.
+ * Version: 1.0
+ * Requires at least: 5.3
+ * Requires PHP: 7.2
+ * Author: Vital
+ * Author URI: https://vtldesign.com
+ * Text Domain: hindi-to-lat
+ * Domain Path: /languages
+ */
  
 /** Array of letters to convert */
 function ctl_hindi_to_lat_title($title) {
