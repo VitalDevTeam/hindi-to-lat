@@ -1,10 +1,10 @@
 <?php
 /**
- * @package hindi-to-lat
+ * @package Hindi to Lat
  * @version 1.0
  */
 /*
-Plugin Name: hindi-to-lat
+Plugin Name: Hindi to Lat
 Text Domain: hindi-to-lat
 Plugin URI: https://wordpress.org/plugins/hindi-to-lat
 Description: Converts Hindi characters in post and term slugs to Latin characters. Useful for creating human-readable URLs. Based on the original plugin by Anton Skorobogatov and Cyr-To-Lat by SergeyBiryukov and Ukr-To-Lat Alexander Butyuhin.
