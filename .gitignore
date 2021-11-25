@@ -1,23 +1,60 @@
-# ignore everything in the root except the "wp-content" directory.
-!wp-content/
-
-# ignore everything in the "wp-content" directory, except:
-# "mu-plugins", "plugins", "themes" directory
-wp-content/*
-!wp-content/mu-plugins/
-!wp-content/plugins/
-!wp-content/themes/
-
-# ignore these plugins
-wp-content/plugins/hello.php
-
-# ignore specific themes
-wp-content/themes/twenty*/
-
-# ignore node dependency directories
-node_modules/
-
-# ignore log files and databases
+# System & Development
+node_modules
+.sass-cache
+robots.txt
+sitemap.xml
+sitemap.xml.gz
+/google*.html
+/.htaccess
+/.htaccess.orig
+.DS_Store
+.gitattributes
+.ftpquota
+Thumbs.db
+error_log
+maintenance.php
+maintenance.html
+._*
+*.bak
+*.ini
 *.log
-*.sql
-*.sqlite
+*.map
+*.orig
+*~
+
+# Large/disallowed file types
+*.3gp
+*.3gpp
+*.asf
+*.asx
+*.avi
+*.bin
+*.deb
+*.dll
+*.dmg
+*.exe
+*.flv
+*.gz
+*.hqx
+*.img
+*.iso
+*.kar
+*.m4a
+*.m4v
+*.mid
+*.midi
+*.mng
+*.mov
+*.mp3
+*.mp4
+*.mpeg
+*.mpg
+*.msi
+*.msm
+*.msp
+*.ogg
+*.ra
+*.tar
+*.webm
+*.wmv
+*.zip
