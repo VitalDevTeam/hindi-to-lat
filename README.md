@@ -1,4 +1,4 @@
-# Hindi-To-Lat
+# VTL-Hindi-To-Lat
 
 Contributors: Dilip111, BArS, SergeyBiryukov, karevn, webvitaly,
 Tags: hindi-to-lat,hi2lat, hindi-to-latin, cyr2lat, slugs, translations, transliteration, cyrillic, Hindi-Slug,Permalink, Hinglish, 
@@ -28,7 +28,7 @@ Caution: this plugin will change your slug/permalink permanently Hindi to Hingli
 
 ## Installation
 
-1. Upload `hindi-to-lat` folder to the `/wp-content/plugins/` directory.
+1. Upload `vtl-hindi-to-lat` folder to the `/wp-content/plugins/` directory.
 2. Activate the plugin through the 'Plugins' menu in WordPress.
 
 ## Translations
